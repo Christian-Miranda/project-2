@@ -1,4 +1,9 @@
 body {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 200;
