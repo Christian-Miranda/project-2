@@ -47,7 +47,9 @@ body {
 }
 
 #main-content {
-  width: 54.68%;
+  background-color: #342F3C;
+  color: #FDEFF1;
+  width: 54.2%;
   margin: 0;
   outline: yellow 2px dashed;
 }
