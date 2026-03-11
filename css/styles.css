@@ -32,3 +32,10 @@ body {
   display: flex;
   justify-content: center;
 }
+
+#main-nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
