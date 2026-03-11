@@ -18,6 +18,24 @@ h1, h2, h3, h4 {
   padding-left: 0.5em;
 }
 
+a {
+  color: #EDFF36;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #EE2AA9;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+::marker { 
+  color: #EE2AA9;
+}
+ul li {
+  color: #EDFF36;
+}
 #page-wrapper {
   width: 100%;
   margin: 0 auto;
@@ -39,28 +57,37 @@ h1, h2, h3, h4 {
 
 #main-nav ul li a {
   display: block;
-  color: white;
+  color: #EDFF36;
   font-weight: 500;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #EE2AA9;
 }
 
 #main-nav ul li a:hover:not(.active) {
   color: #EE2AA9;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #EDFF36;
+
 }
 
 #main-nav ul li a.active {
-  color: #EDFF36;
+  color: #EE2AA9;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #EDFF36;
 }
 
 #main-content {
   background-color: #342F3C;
-  color: #FDEFF1;
+  color: #EDFF36;
   width: 54.2%;
   margin: 0;
 }
 
-#about-me, #college, #pks, #hobbies {
+#about-me, #college, #pks, #hobbies, #intro {
   padding-left: 0.1em;
   padding-right: 0.1em;
   text-align: justify;
@@ -77,4 +104,17 @@ img {
   display: flex;
   justify-content: center;
   padding-bottom: 0.2em;
+}
+
+#info h1, #education h2, #skills h3, #accomplishments h3{
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #EE2AA9;
+}
+
+#info, #education, #skills, #accomplishments {
+  padding-left: 2px;
+  padding-right: 2px;
+  border: 2px ridge #EE2AA9;
 }
