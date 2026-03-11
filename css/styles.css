@@ -17,3 +17,9 @@ body {
   margin: 0;
   outline: #FFFFFF 2px dashed;
 }
+
+#main-nav {
+  float: left;
+  width: 100%;
+  outline: blue 2px dashed;
+}
