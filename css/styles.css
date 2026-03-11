@@ -12,6 +12,13 @@ body {
   outline: orange 2px dashed
 }
 
+h1, h2, h3, h4 {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 777;
+  padding-left: 0.5em;
+}
+
 #page-wrapper {
   outline: #FFFFFF 2px dashed;
 }
@@ -34,6 +41,7 @@ body {
 #main-nav ul li a {
   display: block;
   color: white;
+  font-weight: 500;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -51,5 +59,17 @@ body {
   color: #FDEFF1;
   width: 54.2%;
   margin: 0;
+  border: 2px groove #FF99D9;
+  border-radius: 10px;
   outline: yellow 2px dashed;
 }
+
+#about-me {
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  text-align: justify;
+  border: 2px groove #A689C4;
+  border-radius: 10px;
+  outline: red 2px dashed;
+}
+
