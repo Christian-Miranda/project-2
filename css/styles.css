@@ -9,7 +9,6 @@ body {
   font-weight: 200;
   font-size: 18px;
   line-height: 1.6;
-  outline: orange 2px dashed
 }
 
 h1, h2, h3, h4 {
@@ -20,13 +19,13 @@ h1, h2, h3, h4 {
 }
 
 #page-wrapper {
-  outline: #FFFFFF 2px dashed;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #main-nav {
   width: 100%;
   float: left;
-  outline: blue 2px dashed;
 }
 
 #main-nav ul {
@@ -59,17 +58,23 @@ h1, h2, h3, h4 {
   color: #FDEFF1;
   width: 54.2%;
   margin: 0;
-  border: 2px groove #FF99D9;
-  border-radius: 10px;
-  outline: yellow 2px dashed;
 }
 
-#about-me {
+#about-me, #college, #pks, #hobbies {
   padding-left: 0.1em;
   padding-right: 0.1em;
   text-align: justify;
   border: 2px groove #A689C4;
   border-radius: 10px;
-  outline: red 2px dashed;
 }
 
+img {
+  display: block;
+  margin: auto;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.2em;
+}
