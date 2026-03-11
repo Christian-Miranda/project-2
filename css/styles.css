@@ -9,9 +9,11 @@ body {
   font-weight: 200;
   font-size: 18px;
   line-height: 1.6;
+  outline: orange 2px dashed
 }
 
 #page-wrapper {
   width: 54.68%;
+  margin: 0;
   outline: #FFFFFF 2px dashed;
 }
