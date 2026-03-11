@@ -23,3 +23,12 @@ body {
   width: 100%;
   outline: blue 2px dashed;
 }
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
