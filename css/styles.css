@@ -10,3 +10,8 @@ body {
   font-size: 18px;
   line-height: 1.6;
 }
+
+#page-wrapper {
+  width: 54.68%;
+  outline: #FFFFFF 2px dashed;
+}
