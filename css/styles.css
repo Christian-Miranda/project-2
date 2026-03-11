@@ -13,14 +13,12 @@ body {
 }
 
 #page-wrapper {
-  width: 54.68%;
-  margin: 0;
   outline: #FFFFFF 2px dashed;
 }
 
 #main-nav {
-  float: left;
   width: 100%;
+  float: left;
   outline: blue 2px dashed;
 }
 
@@ -46,4 +44,10 @@ body {
 
 #main-nav ul li a.active {
   color: #EDFF36;
+}
+
+#main-content {
+  width: 54.68%;
+  margin: 0;
+  outline: yellow 2px dashed;
 }
