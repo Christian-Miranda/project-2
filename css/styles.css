@@ -125,7 +125,6 @@ img {
 }
 
 #intro {
-  position: center;
   float: right;
   width: 45%;
   margin: 2.5%;
@@ -142,6 +141,7 @@ img {
   padding-right: 0.1em;
   text-align: justify;
   border: 3px inset #A689C4;
+  background-color: #342F3C;
 }
 
 #debate {
