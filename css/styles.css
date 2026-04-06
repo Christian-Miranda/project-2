@@ -124,9 +124,23 @@ img {
   border: 3px ridge #EE2AA9;
 }
 
-#intro, #debate, #favorite, #additional-series {
+#favorite, #additional-series {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
   padding-left: 0.1em;
   padding-right: 0.1em;
   text-align: justify;
   border: 3px inset #A689C4;
+}
+
+#debate {
+  float: right;
+  width: 45%;
+  margin: 2.5%;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  text-align: justify;
+  border: 3px inset #A689C4;
+}
 }
