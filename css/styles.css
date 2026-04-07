@@ -57,6 +57,7 @@ ul li {
   background-color: #A689C4;
   display: flex;
   justify-content: center;
+
 }
 
 #main-nav ul li a {
@@ -152,5 +153,4 @@ img {
   padding-right: 0.1em;
   text-align: justify;
   border: 3px inset #A689C4;
-}
 }
