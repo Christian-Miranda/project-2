@@ -120,9 +120,12 @@ ul li {
 }
 
 #aepks li {
-
+  line-height: 4;
 }
 
+.center {
+  text-align: center;
+}
 #marathon {
   padding-left: 0.1em;
   padding-right: 0.1em;
